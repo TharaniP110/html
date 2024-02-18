@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signupresult.html" method="GET">
+        <div>
+            <label for="username">User Name</label>
+            <input name="username" id="username" type="text">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input name="password" id="password" type="password">
+        </div>
+        <div>
+            <label for="dateofbirth">Date of Birth</label>
+            <input type="date" name="yearofbirth" id="yearofbirth" maxlength="4" min="1900">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="phonenumber">Phone Number</label>
+            <input type="tel" name="phonenumber" id="phonenumber" maxlength="10" minlength="10">
+        </div>
+        <p1>Gender</p1>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <p1>State</p1>
+        <div>
+            <select name="state" id="state" >
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Andra Pradesh">Andra Pradesh</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Karnataka">Karnataka</option>
+            </select>
+        </div>
+        <div>
+            <label for="">About</label>
+            <textarea name="about" id="about" cols="40" rows="4">About me...</textarea>
+        </div>
+        <div>
+            <label>Upload your Adhaar Card</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <div>
+            <input type="checkbox" name="smsalert" id="smsalert">    
+            <label for="smsalert">SMS Alert</label>
+        </div>
+        <div>
+            <input type="checkbox" name="emailalert" id="emailalert">    
+            <label for="emailalert">Email Alert</label>
+        </div>
+        <div>
+            <button type="submit">Sign in</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
