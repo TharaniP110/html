@@ -1,0 +1,78 @@
+.login{
+    width: 380px;
+    border: solid black;
+    background-color: rgb(92, 116, 128);
+    height: 100%;
+    width: 30%;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.back
+{
+    
+   height: 100vh;
+   width: 100vw;
+   background-color: rgb(92, 116, 128);
+   display: flex;
+}
+.image
+{
+    background-image: url('./New folder/men2.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   border-radius: 20px;
+    width: 100%;
+   overscroll-behavior: none;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: center;
+}
+.contain input{
+    width: 17vw;
+    height: 5vh;
+    font-size: large;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 20px;
+    background-color: transparent;
+}
+.contain button{
+    width: 15vw;
+    height: 5vh;
+    font-size: large;
+}
+.headlogin
+{
+    position: relative;
+}
+.contain
+{
+    height: 90vh;
+    width: 25vw;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color:bisque;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+}
+.circle
+{
+    background-image: url('./New folder/men2.jpeg');
+    height: 14vh;
+    width: 7vw;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 200px;
+}

@@ -1,0 +1,144 @@
+import React from 'react';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import bidha from './New folder/images (3).jpg';
+import brown from './New folder/images (4).jpg';
+import shoes from './New folder/images (5).jpg';
+import tshirt from './New folder/images (6).jpg';
+import './Slide.css';
+
+const ImageSlider = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1800
+  };
+
+  const slides = [
+    {
+      img: bidha,
+      text: "Caption for Slide 1"
+    },
+    {
+      img: brown,
+      text: "Caption for Slide 2"
+    },
+    {
+      img: tshirt,
+      text: "Caption for Slide 3"
+    },
+    {
+      img: tshirt,
+      text: "Caption for Slide 4"
+    }
+  ];
+
+  return (
+    <div className="new">
+    <div className="image-slider-container">
+      <h2> Image Carousel </h2>
+      <Slider {...settings}>
+        {slides.map((slide, index) => (
+          <div key={index} className="slide-content">
+            <img src={slide.img}  />    
+            <div className="banner">
+             <h1 style={{color:'black'}}>{slide.text}</h1>
+        <p  style={{color:'black'}}>{slide.text}</p>
+        <button>{slide.text}</button>
+      </div>
+            <div className="caption" style={{color:'black'}}>{slide.text}</div>
+          </div>
+        ))}
+      </Slider>
+    </div>
+    </div>
+  );
+}
+
+export default ImageSlider;
+
+
+
+<div className="banner">
+<h1>TULOS SPRING COLLECTION</h1>
+<p>Find out our best spring collection. Offering our best quality product in a Tulos Spring Collection.</p>
+<button>Buy Now</button>
+</div>
+
+
+
+
+
+
+
+
+
+//org
+
+import React from 'react';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import bidha from './New folder/men2.jpeg';
+import brown from './New folder/women1.jpg';
+import shoes from './New folder/images (5).jpg';
+import tshirt from './New folder/images (6).jpg';
+import './Slide.css';
+
+const ImageSlider = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1800
+  };
+
+  const slides = [
+    {
+      img: bidha,
+      text: "Find out our best spring collection. Offering our best quality product in a Tulos Spring Collection."
+    },
+    {
+      img: brown,
+      text: "Discover the elegance of our new brown series, crafted for perfection."
+    },
+    {
+      img: shoes,
+      text: "Step into style with our latest shoe collection, designed for comfort and durability."
+    },
+    {
+      img: tshirt,
+      text: "Experience the comfort of our premium t-shirt collection, perfect for any season."
+    }
+  ];
+
+  return (
+    <div className="container">
+      <div className="image-slider-container">
+        <Slider {...settings}>
+          {slides.map((slide, index) => (
+            <div key={index} className="slide-content">
+              <img src={slide.img} alt={`Slide ${index + 1}`} />
+              <p>{slide.text}</p>
+            </div>
+          ))}
+        </Slider>
+      </div>
+      <div className="banner">
+                <h1>TULOS SPRING COLLECTION</h1>
+                <p>Find out our best spring collection. Offering our best quality product in a Tulos Spring Collection.</p>
+                <button>Buy Now</button>
+              </div>
+    </div>
+  );
+}
+
+export default ImageSlider;

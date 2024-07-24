@@ -1,0 +1,140 @@
+/* 
+
+
+  
+  .banner button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+
+
+  .image-slider-container {
+    width: 1000px;
+    height: 1200px;
+    box-shadow: 0cqi;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main .slick-slide img {
+    display: block;
+    width: 800px;
+    height: 600px;
+  }
+
+
+
+  .slide-content
+  {
+    width: 2000px;
+    height: 650px;
+  }
+
+  .slide-content img
+  {
+    height: 1200px;
+    width: 800px;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+  }
+
+  .containers {
+    background-color:rgb(92, 116, 128);
+    margin-left: 40%;
+    
+  }
+  
+  .image-slider-container {
+    width: 1900px;
+    max-width: 1900px;
+    overflow: hidden;
+    max-height: 990px;
+    height: 990px;
+  }
+  
+  .slide-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-content img {
+    width: 1050px;
+    height: 990px;
+  }
+  
+  .banner {
+    left: 80%;
+    top: 60%;
+    max-width: 600px;
+  }
+  
+  .banner h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .banner button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .banner button:hover {
+    background-color: #ff6347;
+  }
+   */
+
+
+
+   .slide {
+    position: relative;
+    text-align: center;
+  }
+  
+  .slide img {
+    width: 1000px;
+    height: 700px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  .slide-text {
+    position: absolute;
+    bottom: 20px;
+    left: 70%;
+    top: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .container {
+    background-color:rgb(92, 116, 128);
+    min-width: 600px;
+    max-width: 1900px;
+    min-height: 750px;
+    max-height: 800px;
+  }
+  .buybtn
+  {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

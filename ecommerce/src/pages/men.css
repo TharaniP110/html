@@ -1,0 +1,12 @@
+.containers
+{
+    margin-left: 1%;
+    margin-left: 20%;
+
+}
+.flex
+{
+    display: flex;
+    flex-direction: row;
+   
+}

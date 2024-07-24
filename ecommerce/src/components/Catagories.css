@@ -1,0 +1,48 @@
+  .M-categories
+  {
+    display: flex;
+    padding: 50px 20px;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .category
+  {
+  min-width: 250px;
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 350px;
+  margin: 40px;
+
+  }
+  
+  .category img
+  {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .category-content
+  {
+    position: relative;
+  }
+  
+  .category-content h3
+  {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .category-content button
+  {
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+    
